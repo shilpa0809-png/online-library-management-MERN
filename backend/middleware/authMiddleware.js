@@ -1,6 +1,6 @@
 // middleware/authMiddleware.js
 const jwt = require('jsonwebtoken'); // For working with JSON Web Tokens
-const User = require('../models/User'); // Import the User model
+const User = require('../models/user'); // Import the User model
 const asyncHandler = require('express-async-handler'); // Utility to handle async errors in Express routes
 
 // 'protect' middleware: Authenticates users by verifying their JWT token

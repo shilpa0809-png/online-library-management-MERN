@@ -1,6 +1,6 @@
 // controllers/userController.js
 const asyncHandler = require('express-async-handler'); // For simplified error handling in async routes
-const User = require('../models/User'); // Import the User model
+const User = require('../models/user'); // Import the User model
 
 // @desc    Get the profile of the currently logged-in user
 // @route   GET /api/users/profile

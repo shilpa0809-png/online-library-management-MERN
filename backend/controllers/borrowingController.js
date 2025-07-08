@@ -2,7 +2,7 @@
 const asyncHandler = require('express-async-handler');
 const Borrowing = require('../models/Borrowing'); // Import Borrowing model
 const Book = require('../models/book');         // Import Book model
-const User = require('../models/User');         // Import User model
+const User = require('../models/user');         // Import User model
 
 // @desc    Borrow a book
 // @route   POST /api/borrowings

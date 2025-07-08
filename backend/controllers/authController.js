@@ -1,5 +1,5 @@
 // controllers/authController.js
-const User = require('../models/User'); // Import the User model
+const User = require('../models/user'); // Import the User model
 const asyncHandler = require('express-async-handler'); // A utility to simplify error handling in async Express routes
 
 // @desc    Register a new user
