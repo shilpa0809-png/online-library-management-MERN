@@ -8,7 +8,7 @@ const api = axios.create({
   // It uses the VITE_API_BASE_URL from your .env file (e.g., http://localhost:5000/api).
   // If the environment variable isn't set, it defaults to 'http://localhost:5000/api'.
   // *** ENSURE THIS IS EXACTLY 'http://localhost:5000/api' ***
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api',
+  baseURL: 'https://online-library-management-mern-backend.onrender.com',
   headers: {
     'Content-Type': 'application/json', // Default header for most API requests
   },
