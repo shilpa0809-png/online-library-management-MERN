@@ -1,0 +1,15 @@
+/* src/context/AuthContext.css */
+
+.auth-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f9fafb; /* light gray background */
+}
+
+.auth-loading-message {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #6b7280; /* gray-500 */
+}

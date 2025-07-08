@@ -1,0 +1,44 @@
+/* The overlay that covers the screen when modal is open */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  padding: 1rem;
+}
+
+/* The modal content container */
+.modal-content {
+  background-color: #ffffff; /* White background */
+  padding: 1.5rem;
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Strong shadow */
+  max-width: 48rem; /* ~768px */
+  width: 100%;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* The close button in the top-right corner */
+.modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b7280; /* Tailwind gray-500 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: #1f2937; /* Tailwind gray-800 */
+}

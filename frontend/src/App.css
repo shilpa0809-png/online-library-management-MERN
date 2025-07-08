@@ -1,0 +1,110 @@
+/* Base container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8fafc; /* Light background for contrast */
+  font-family: 'Inter', sans-serif; /* Your Tailwind font */
+  color: #1f2937; /* Gray-900 text */
+}
+
+/* Logo styling */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms, transform 300ms;
+  border-radius: 9999px; /* Make it circular */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #6366F1aa); /* Indigo-600 accent */
+  transform: scale(1.05);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo spin for React version */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff;
+  padding: 2em;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  transition: transform 300ms, box-shadow 300ms;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Read the docs link */
+.read-the-docs {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #6b7280; /* Gray-500 */
+  text-decoration: underline;
+  transition: color 200ms;
+}
+
+.read-the-docs:hover {
+  color: #4F46E5; /* Indigo-500 primary */
+}
+
+/* New: Add a pretty button class! */
+.btn {
+  display: inline-block;
+  background-color: #4F46E5; /* Primary indigo */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 300ms, transform 200ms;
+}
+
+.btn:hover {
+  background-color: #6366F1; /* Secondary indigo */
+  transform: translateY(-2px);
+}
+
+/* New: Section spacing utility */
+.section {
+  padding: 4rem 1rem;
+}
+
+/* New: Hero text styles */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #4F46E5;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}

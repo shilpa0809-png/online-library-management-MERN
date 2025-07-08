@@ -1,0 +1,89 @@
+.home-container {
+  max-width: 1000px;
+  margin: 7.5rem auto;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #4f46e5; /* Your primary color (e.g., indigo-600) */
+  margin-bottom: 1.5rem;
+   
+  animation: fade-in-down 1s ease both;
+}
+
+.home-description {
+  font-size: 1.25rem;
+  color: #6b7280; /* text-gray-500 */
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  animation: fade-in-up 1s ease both;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  animation: fade-in-up 1s ease both;
+  animation-delay: 0.2s;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.browse-btn {
+  background: #4f46e5; /* primary */
+  color: #fff;
+}
+
+.browse-btn:hover {
+  background: #4338ca; /* secondary */
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.join-btn {
+  background: #facc15; /* accent (yellow-400) */
+  color: #111827; /* text color */
+}
+
+.join-btn:hover {
+  background: #fbbf24;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Simple fade animations */
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

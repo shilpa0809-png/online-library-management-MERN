@@ -1,0 +1,139 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1f2937; /* gray-800 */
+  margin-bottom: 2rem;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+}
+
+.loading-text {
+  margin-top: 1rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.success-message {
+  text-align: center;
+  color: #16a34a; /* green-600 */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  text-align: center;
+  color: #dc2626; /* red-500 */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937; /* gray-800 */
+  margin-bottom: 1rem;
+}
+
+.add-book-btn {
+  background: #10b981; /* green-500 */
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.add-book-btn:hover {
+  background: #059669; /* green-700 */
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #f3f4f6; /* gray-100 */
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4b5563; /* gray-600 */
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb; /* gray-200 */
+}
+
+.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table tr:hover {
+  background: #f9fafb; /* gray-50 */
+}
+
+.edit-btn, .delete-btn, .return-btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.edit-btn {
+  background: #f59e0b; /* yellow-500 */
+}
+
+.edit-btn:hover {
+  background: #d97706; /* yellow-700 */
+}
+
+.delete-btn {
+  background: #ef4444; /* red-500 */
+}
+
+.delete-btn:hover {
+  background: #b91c1c; /* red-700 */
+}
+
+.return-btn {
+  background: #3b82f6; /* blue-500 */
+}
+
+.return-btn:hover {
+  background: #1d4ed8; /* blue-700 */
+}
+
+.muted-text {
+  color: #6b7280; /* gray-500 */
+}

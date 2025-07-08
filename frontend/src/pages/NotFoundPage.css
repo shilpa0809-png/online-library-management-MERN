@@ -1,0 +1,63 @@
+/* Container for the 404 page */
+.notfound-container {
+  max-width: 100%;
+  padding: 4rem 1rem;
+  min-height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Large animated 404 heading */
+.notfound-heading {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #dc2626; /* red-600 */
+  margin-bottom: 1rem;
+  animation: bounce 1s infinite;
+}
+
+/* Secondary heading */
+.notfound-subheading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111827; /* gray-900 */
+  margin-bottom: 1.5rem;
+}
+
+/* Descriptive paragraph */
+.notfound-text {
+  font-size: 1.125rem;
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 2rem;
+}
+
+/* Home link styled as a button */
+.notfound-home-link {
+  background: #6366f1; /* primary */
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.notfound-home-link:hover {
+  background: #4f46e5; /* secondary */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+/* Bounce animation for the 404 number */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}

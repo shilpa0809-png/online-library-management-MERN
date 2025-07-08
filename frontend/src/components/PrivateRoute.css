@@ -1,0 +1,14 @@
+/* Container for the loading state */
+.private-route-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+}
+
+/* Text styling for loading message */
+.private-route-text {
+  margin-left: 1rem; /* ml-4 */
+  font-size: 1.125rem; /* text-lg */
+  color: #6b7280; /* Tailwind text-lightText equivalent (gray-500) */
+}

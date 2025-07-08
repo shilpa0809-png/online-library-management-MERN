@@ -1,0 +1,106 @@
+/* Container centering the form */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 160px);
+  margin-top:5rem;
+}
+
+/* Form card styling */
+.register-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid #f3f4f6;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.register-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827; /* dark text */
+  margin-bottom: 2rem;
+}
+
+/* Error message */
+.register-error {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+/* Input groups */
+.register-input-group {
+  margin-bottom: 1rem;
+}
+
+.register-input-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.register-input-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #374151;
+  transition: box-shadow 0.2s ease;
+}
+
+.register-input-group input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+/* Actions */
+.register-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.register-button {
+  background: #facc15; /* Accent yellow */
+  color: #111827;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.register-button:hover {
+  background: #fbbf24;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.register-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4f46e5;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  color: #4338ca;
+}

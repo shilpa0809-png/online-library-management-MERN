@@ -1,0 +1,52 @@
+/* src/index.css */
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Container utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Links */
+a {
+  color: #4f46e5; /* Indigo-600 */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4338ca; /* Indigo-700 */
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #111827; /* Text heading color */
+}
+
+/* Forms */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
